@@ -1,0 +1,8 @@
+n = int(input("n = "))
+print(f"Введіть маисв з {n} елементів:")
+
+arr = [int(input()) for _ in range(n)]
+print("Масив: ", arr)
+
+s=sum(arr[::2])
+print("Сума елементів з парними індексами:",s)
